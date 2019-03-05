@@ -91,6 +91,36 @@ body {
   }
 }
 
+.tab--noclick {
+  flex: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.cta--static {
+  position: relative;
+  width: 39px;
+  height: 39px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border-radius: 200px;
+    background: 50% 50% url('images/plus.svg') no-repeat #ff9083 ;
+    transition: all $animation-speed ease;
+  }
+}
+
+@each $tab, $background in $tabs {
+  .cta--static.cta--#{$tab} {
+    &:before {
+      background-color: $background;
+    }
+  }
+}
+
 @each $tab, $background in $tabs {
   .tab--#{$tab} {
     background: white;
@@ -108,7 +138,7 @@ body {
     &.tab--selected {
       flex: 1.5;
       background: transparentize($background, 0.76);
-      padding: 0 5px 0 10px;
+      // padding: 0 5px 0 10px;
 
       span {
         padding: 0 7px;

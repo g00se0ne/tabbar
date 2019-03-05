@@ -64,6 +64,36 @@ body {
     border-radius: 200px;
     background: 50% 50% url("images/plus.svg") no-repeat #ff9083; }
 
+.tab--noclick {
+  flex: 0;
+  padding-right: 30px;
+  padding-left: 30px; }
+
+.cta--static {
+  position: relative;
+  width: 39px;
+  height: 39px; }
+  .cta--static:before {
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border-radius: 200px;
+    background: 50% 50% url("images/plus.svg") no-repeat #ff9083;
+    transition: all 200ms ease; }
+
+.cta--static.cta--house:before {
+  background-color: #3398D0; }
+
+.cta--static.cta--inbox:before {
+  background-color: #F78301; }
+
+.cta--static.cta--students:before {
+  background-color: #73BF87; }
+
+.cta--static.cta--interested:before {
+  background-color: #C187D3; }
+
 .tab--house {
   background: white; }
   .tab--house .tab__image .tab__image-selected {
@@ -72,8 +102,7 @@ body {
     background-image: url("images/house-deselected.svg"); }
   .tab--house.tab--selected {
     flex: 1.5;
-    background: rgba(51, 152, 208, 0.24);
-    padding: 0 5px 0 10px; }
+    background: rgba(51, 152, 208, 0.24); }
     .tab--house.tab--selected span {
       padding: 0 7px;
       width: auto;
@@ -100,8 +129,7 @@ body {
     background-image: url("images/inbox-deselected.svg"); }
   .tab--inbox.tab--selected {
     flex: 1.5;
-    background: rgba(247, 131, 1, 0.24);
-    padding: 0 5px 0 10px; }
+    background: rgba(247, 131, 1, 0.24); }
     .tab--inbox.tab--selected span {
       padding: 0 7px;
       width: auto;
@@ -128,8 +156,7 @@ body {
     background-image: url("images/students-deselected.svg"); }
   .tab--students.tab--selected {
     flex: 1.5;
-    background: rgba(115, 191, 135, 0.24);
-    padding: 0 5px 0 10px; }
+    background: rgba(115, 191, 135, 0.24); }
     .tab--students.tab--selected span {
       padding: 0 7px;
       width: auto;
@@ -156,8 +183,7 @@ body {
     background-image: url("images/interested-deselected.svg"); }
   .tab--interested.tab--selected {
     flex: 1.5;
-    background: rgba(193, 135, 211, 0.24);
-    padding: 0 5px 0 10px; }
+    background: rgba(193, 135, 211, 0.24); }
     .tab--interested.tab--selected span {
       padding: 0 7px;
       width: auto;
