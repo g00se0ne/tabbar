@@ -1,8 +1,8 @@
 $tabs: (
-  house: #e7f4ff,
-  inbox: #ffdab0,
-  students: #cdf0da,
-  interested: #ecdff0,
+  house: #3398D0,
+  inbox: #F78301,
+  students: #73BF87,
+  interested: #C187D3,
 );
 
 $animation-speed: 200ms;
@@ -107,7 +107,7 @@ body {
 
     &.tab--selected {
       flex: 1.5;
-      background: $background;
+      background: transparentize($background, 0.76);
       padding: 0 5px 0 10px;
 
       span {
@@ -123,6 +123,10 @@ body {
         animation: cta $animation-speed forwards;
         animation-delay: $animation-speed;
         width: 39px;
+
+        &:before {
+          background-color: $background;
+        }
       }
 
       .tab__image .tab__image-selected {

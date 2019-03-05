@@ -72,7 +72,7 @@ body {
     background-image: url("images/house-deselected.svg"); }
   .tab--house.tab--selected {
     flex: 1.5;
-    background: #e7f4ff;
+    background: rgba(51, 152, 208, 0.24);
     padding: 0 5px 0 10px; }
     .tab--house.tab--selected span {
       padding: 0 7px;
@@ -85,6 +85,8 @@ body {
       animation: cta 200ms forwards;
       animation-delay: 200ms;
       width: 39px; }
+      .tab--house.tab--selected .cta:before {
+        background-color: #3398D0; }
     .tab--house.tab--selected .tab__image .tab__image-selected {
       opacity: 1; }
     .tab--house.tab--selected .tab__image .tab__image-deselected {
@@ -98,7 +100,7 @@ body {
     background-image: url("images/inbox-deselected.svg"); }
   .tab--inbox.tab--selected {
     flex: 1.5;
-    background: #ffdab0;
+    background: rgba(247, 131, 1, 0.24);
     padding: 0 5px 0 10px; }
     .tab--inbox.tab--selected span {
       padding: 0 7px;
@@ -111,6 +113,8 @@ body {
       animation: cta 200ms forwards;
       animation-delay: 200ms;
       width: 39px; }
+      .tab--inbox.tab--selected .cta:before {
+        background-color: #F78301; }
     .tab--inbox.tab--selected .tab__image .tab__image-selected {
       opacity: 1; }
     .tab--inbox.tab--selected .tab__image .tab__image-deselected {
@@ -124,7 +128,7 @@ body {
     background-image: url("images/students-deselected.svg"); }
   .tab--students.tab--selected {
     flex: 1.5;
-    background: #cdf0da;
+    background: rgba(115, 191, 135, 0.24);
     padding: 0 5px 0 10px; }
     .tab--students.tab--selected span {
       padding: 0 7px;
@@ -137,6 +141,8 @@ body {
       animation: cta 200ms forwards;
       animation-delay: 200ms;
       width: 39px; }
+      .tab--students.tab--selected .cta:before {
+        background-color: #73BF87; }
     .tab--students.tab--selected .tab__image .tab__image-selected {
       opacity: 1; }
     .tab--students.tab--selected .tab__image .tab__image-deselected {
@@ -150,7 +156,7 @@ body {
     background-image: url("images/interested-deselected.svg"); }
   .tab--interested.tab--selected {
     flex: 1.5;
-    background: #ecdff0;
+    background: rgba(193, 135, 211, 0.24);
     padding: 0 5px 0 10px; }
     .tab--interested.tab--selected span {
       padding: 0 7px;
@@ -163,6 +169,8 @@ body {
       animation: cta 200ms forwards;
       animation-delay: 200ms;
       width: 39px; }
+      .tab--interested.tab--selected .cta:before {
+        background-color: #C187D3; }
     .tab--interested.tab--selected .tab__image .tab__image-selected {
       opacity: 1; }
     .tab--interested.tab--selected .tab__image .tab__image-deselected {
