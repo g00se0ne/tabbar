@@ -20,7 +20,7 @@ body {
   height: 47px;
   flex-shrink: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 200ms ease; }
