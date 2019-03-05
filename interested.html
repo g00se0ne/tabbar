@@ -1,0 +1,51 @@
+<html>
+  <link rel="stylesheet" href="app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+  <body>
+    <div class="swipebar"></div>
+    <div class="tabbar">
+      <div class="tabs">
+        <div class="tab tab--house tab--selected">
+          <div class="tab__image">
+            <div class="tab__image-selected"></div>
+            <div class="tab__image-deselected"></div>
+          </div>
+          <span>Activity</span>
+          <div class="cta"></div>
+        </div>
+        <div class="tab tab--inbox">
+          <div class="tab__image">
+            <div class="tab__image-selected"></div>
+            <div class="tab__image-deselected"></div>
+          </div>
+          <span>Inbox</span>
+        </div>
+        <div class="tab tab--interested">
+          <div class="tab__image">
+            <div class="tab__image-selected"></div>
+            <div class="tab__image-deselected"></div>
+          </div>
+          <span>Visits</span>
+        </div>
+        <div class="tab tab--students">
+          <span>Students</span>
+          <div class="tab__image">
+            <div class="tab__image-selected"></div>
+            <div class="tab__image-deselected"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    $('.tab').click(function(){
+      $(this).siblings().removeClass('tab--selected');
+      $(this).addClass('tab--selected');
+    })
+  </script>
+</html>

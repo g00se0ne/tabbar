@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>inbox-deselected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="inbox-deselected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(6.000000, 5.000000)">
+            <g id="Tab/Deselected/Inbox">
+                <g id="Tab-Chat---Deselected">
+                    <g id="Group" transform="translate(0.000000, 0.115714)">
+                        <path d="M7.16549167,18.915768 C3.98049167,18.171756 0.745658333,14.480964 0.745658333,9.745488 C0.745658333,4.800276 4.56451667,0.537948 9.01040833,0.537948 L17.1579417,0.537948 C21.6038333,0.537948 25.2081917,4.772844 25.2081917,9.718056 C25.2081917,14.61186 21.6038333,18.897948 17.1579417,18.897948 L14.591525,18.897948 L7.16549167,25.140348 L7.16549167,18.915768 L7.16549167,18.915768 Z" id="Shape" stroke="#9B9B9B" stroke-width="2"></path>
+                        <g id="Group-2" transform="translate(5.296296, 7.714286)" fill="#9B9B9B">
+                            <ellipse id="Oval" cx="2.53484352" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                            <ellipse id="Oval" cx="7.93081852" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                            <ellipse id="Oval" cx="13.3266852" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

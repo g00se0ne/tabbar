@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato'; }
+
+.tabbar {
+  height: 83px;
+  position: fixed;
+  box-shadow: 0 -2px 11px rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  width: 100%; }
+
+.tabs {
+  display: flex;
+  padding: 10px 10px 0; }
+
+.tab {
+  flex: 1;
+  position: relative;
+  height: 47px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 200ms ease; }
+  .tab span {
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 200ms ease;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 900; }
+  .tab + .tab {
+    margin-left: 10px; }
+  .tab__image {
+    width: 38px;
+    height: 36px;
+    position: relative; }
+    .tab__image-selected, .tab__image-deselected {
+      position: absolute;
+      width: 38px;
+      height: 36px;
+      opacity: 0; }
+    .tab__image-deselected {
+      opacity: 1; }
+
+.cta {
+  position: relative;
+  width: 39px;
+  height: 39px;
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all 200ms ease; }
+  .cta:before {
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border-radius: 200px;
+    background: 50% 50% url("images/plus.svg") no-repeat #ff9083; }
+
+.tab--house {
+  background: white; }
+  .tab--house .tab__image .tab__image-selected {
+    background-image: url("images/house-selected.svg"); }
+  .tab--house .tab__image .tab__image-deselected {
+    background-image: url("images/house-deselected.svg"); }
+  .tab--house.tab--selected {
+    flex: 1.5;
+    background: #e7f4ff;
+    padding: 0 5px 0 10px; }
+    .tab--house.tab--selected span {
+      padding: 0 7px;
+      width: auto;
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms; }
+    .tab--house.tab--selected .cta {
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms;
+      width: 39px; }
+    .tab--house.tab--selected .tab__image .tab__image-selected {
+      opacity: 1; }
+    .tab--house.tab--selected .tab__image .tab__image-deselected {
+      opacity: 0; }
+
+.tab--inbox {
+  background: white; }
+  .tab--inbox .tab__image .tab__image-selected {
+    background-image: url("images/inbox-selected.svg"); }
+  .tab--inbox .tab__image .tab__image-deselected {
+    background-image: url("images/inbox-deselected.svg"); }
+  .tab--inbox.tab--selected {
+    flex: 1.5;
+    background: #ffdab0;
+    padding: 0 5px 0 10px; }
+    .tab--inbox.tab--selected span {
+      padding: 0 7px;
+      width: auto;
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms; }
+    .tab--inbox.tab--selected .cta {
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms;
+      width: 39px; }
+    .tab--inbox.tab--selected .tab__image .tab__image-selected {
+      opacity: 1; }
+    .tab--inbox.tab--selected .tab__image .tab__image-deselected {
+      opacity: 0; }
+
+.tab--students {
+  background: white; }
+  .tab--students .tab__image .tab__image-selected {
+    background-image: url("images/students-selected.svg"); }
+  .tab--students .tab__image .tab__image-deselected {
+    background-image: url("images/students-deselected.svg"); }
+  .tab--students.tab--selected {
+    flex: 1.5;
+    background: #cdf0da;
+    padding: 0 5px 0 10px; }
+    .tab--students.tab--selected span {
+      padding: 0 7px;
+      width: auto;
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms; }
+    .tab--students.tab--selected .cta {
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms;
+      width: 39px; }
+    .tab--students.tab--selected .tab__image .tab__image-selected {
+      opacity: 1; }
+    .tab--students.tab--selected .tab__image .tab__image-deselected {
+      opacity: 0; }
+
+.tab--interested {
+  background: white; }
+  .tab--interested .tab__image .tab__image-selected {
+    background-image: url("images/interested-selected.svg"); }
+  .tab--interested .tab__image .tab__image-deselected {
+    background-image: url("images/interested-deselected.svg"); }
+  .tab--interested.tab--selected {
+    flex: 1.5;
+    background: #ecdff0;
+    padding: 0 5px 0 10px; }
+    .tab--interested.tab--selected span {
+      padding: 0 7px;
+      width: auto;
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms; }
+    .tab--interested.tab--selected .cta {
+      animation-name: cta;
+      animation: cta 200ms forwards;
+      animation-delay: 200ms;
+      width: 39px; }
+    .tab--interested.tab--selected .tab__image .tab__image-selected {
+      opacity: 1; }
+    .tab--interested.tab--selected .tab__image .tab__image-deselected {
+      opacity: 0; }
+
+.swipebar {
+  position: fixed;
+  width: 100px;
+  margin: 0 auto;
+  bottom: 10px;
+  height: 5px;
+  background: #F4F4F4;
+  border-radius: 3px;
+  left: 50%;
+  margin-left: -50px; }
+
+@keyframes cta {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=app.css.map */

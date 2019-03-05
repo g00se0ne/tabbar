@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>interested-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.5,2.8786 C23.5,1.5649 22.435,0.5 21.1212,0.5 L2.8788,0.5 C1.565,0.5 0.5,1.5649 0.5,2.8786 L0.5,21.1215 C0.5,22.4351 1.565,23.5 2.8788,23.5 L21.1212,23.5 C22.435,23.5 23.5,22.4351 23.5,21.1214 L23.5,2.8786 L23.5,2.8786 Z" id="path-1"></path>
+        <filter x="-34.8%" y="-26.1%" width="169.6%" height="169.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.792156863   0 0 0 0 0.639215686   0 0 0 0 0.839215686  0 0 0 0.55 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="interested-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thin-0021_calendar_month_day_planner" transform="translate(7.000000, 6.000000)">
+            <g id="Group">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#C187D3" stroke-width="2" fill-opacity="0.500437063" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M0.5,6.5 L23.5,6.5" id="Shape" stroke="#C187D3" stroke-width="1.84615385"></path>
+            </g>
+            <polygon id="Rectangle-path" points="0 0 24 0 24 19.5509275 24 24 0 24"></polygon>
+        </g>
+    </g>
+</svg>

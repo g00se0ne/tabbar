@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>interested</title>
+    <desc>Created with Sketch.</desc>
+    <g id="interested" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thin-0021_calendar_month_day_planner" transform="translate(7.000000, 6.000000)">
+            <g id="Group" stroke="#9B9B9B" stroke-width="1.84615385">
+                <path d="M23.5,2.8786 C23.5,1.5649 22.435,0.5 21.1212,0.5 L2.8788,0.5 C1.565,0.5 0.5,1.5649 0.5,2.8786 L0.5,21.1215 C0.5,22.4351 1.565,23.5 2.8788,23.5 L21.1212,23.5 C22.435,23.5 23.5,22.4351 23.5,21.1214 L23.5,2.8786 L23.5,2.8786 Z" id="Shape"></path>
+                <path d="M0.5,6.5 L23.5,6.5" id="Shape"></path>
+            </g>
+            <rect id="Rectangle-path" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

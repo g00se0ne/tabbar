@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>inbox-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.745658333,9.745488 C0.745658333,4.800276 4.56451667,0.537948 9.01040833,0.537948 L17.1579417,0.537948 C21.6038333,0.537948 25.2081917,4.772844 25.2081917,9.718056 C25.2081917,14.61186 21.6038333,18.897948 17.1579417,18.897948 L14.591525,18.897948 L7.16549167,25.140348 L7.16549167,18.915768 C3.98049167,18.171756 0.745658333,14.480964 0.745658333,9.745488 Z" id="path-1"></path>
+        <filter x="-36.8%" y="-28.5%" width="173.6%" height="182.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.51372549   0 0 0 0 0.00392156863  0 0 0 0.37 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="inbox-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tab-Chat---Deselected" transform="translate(6.000000, 5.000000)">
+            <g id="Group" transform="translate(0.000000, 0.115714)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <path stroke="#F78301" stroke-width="2" d="M14.9559969,19.897948 L6.16549167,27.2873371 L6.16549167,19.6624516 C2.58949355,18.3925976 -0.254341667,14.3020416 -0.254341667,9.745488 C-0.254341667,4.26806036 3.9889683,-0.462052 9.01040833,-0.462052 L17.1579417,-0.462052 C22.1524277,-0.462052 26.2081917,4.20632371 26.2081917,9.718056 C26.2081917,15.1953969 22.1382026,19.897948 17.1579417,19.897948 L14.9559969,19.897948 Z" fill-opacity="0.500437063" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+                <g id="Group-2" transform="translate(5.296296, 7.714286)" fill="#F78301">
+                    <ellipse id="Oval" cx="2.53484352" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                    <ellipse id="Oval" cx="7.93081852" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                    <ellipse id="Oval" cx="13.3266852" cy="1.90689429" rx="1.71925" ry="1.748952"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

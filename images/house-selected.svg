@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>house-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.019565,0.380075799 C14.4516875,-0.126691933 13.5998712,-0.126691933 13.0319936,0.380075799 L0.538687638,10.8532756 C-0.0859776605,11.4163508 -0.199553169,12.3735788 0.368324375,12.9929616 C0.936201919,13.6123443 1.90159374,13.7249594 2.52625904,13.1618841 L2.75341006,12.9929616 L2.75341006,25.0427721 C2.75341006,25.5495398 3.20771209,26 3.71880188,26 L10.7604834,26 L10.7604834,15.5831077 L17.3478629,15.5831077 L17.3478629,26 L24.3895445,26 C24.9006343,26 25.3549363,25.5495398 25.3549363,25.0427721 L25.3549363,12.9929616 L25.5820873,13.1618841 C25.8660261,13.3871142 26.2067526,13.4997293 26.5474792,13.4997293 C27.0017812,13.4997293 27.3992955,13.3308067 27.740022,12.936654 C28.2511118,12.3172713 28.194324,11.3600433 27.512871,10.8532756 L15.019565,0.380075799 Z" id="path-1"></path>
+        <filter x="-32.1%" y="-26.9%" width="164.1%" height="169.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.443137255   0 0 0 0 0.674509804   0 0 0 0 0.835294118  0 0 0 0.366932745 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="house-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="House---Deselected" transform="translate(5.000000, 3.000000)">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#3398D0" stroke-width="2" d="M15.6724216,-0.377526019 L28.1096088,10.0508393 C29.2430189,10.8937084 29.3934049,12.5041415 28.4965393,13.5906278 C27.9765484,14.1921536 27.3084276,14.4997293 26.5474792,14.4997293 C26.4830669,14.4997293 26.4188323,14.4972906 26.3549363,14.4924734 L26.3549363,25.0427721 C26.3549363,26.1037345 25.4510269,27 24.3895445,27 L16.3478629,27 L16.3478629,16.5831077 L11.7604834,16.5831077 L11.7604834,27 L3.71880188,27 C2.65731948,27 1.75341006,26.1037345 1.75341006,25.0427721 L1.75341006,14.5203627 C0.985235815,14.5782059 0.19215884,14.2805552 -0.368764561,13.6687573 C-1.31430448,12.637459 -1.16836664,11.0457182 -0.10374251,10.0869313 L12.3661722,-0.366035328 C13.3090775,-1.20747381 14.725208,-1.21130404 15.6724216,-0.377526019 Z" fill-opacity="0.500437063" fill="#FFFFFF" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>
